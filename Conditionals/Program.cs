@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Conditional
+namespace Conditionals
 {
     internal class Program
     {
@@ -304,7 +304,7 @@ namespace Conditional
                     Console.WriteLine($"Twój wynik to {result}");
                     break;
                 case '2':
-                    result = n1 * n2;
+                    result = n1 - n2;
                     Console.WriteLine($"Twój wynik to {result}");
                     break;
                 case '3':
